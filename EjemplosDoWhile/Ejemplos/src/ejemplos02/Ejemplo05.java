@@ -25,7 +25,7 @@ public class Ejemplo05 {
         // 3. potencia, i[0, n]
         int potencia;
         // 6. resultado, i[0, n]
-        int resultado;
+        int resultado = 1;
         // numero <-- 4
         System.out.println("Ingresar el numero");
         numero = entrada.nextInt();

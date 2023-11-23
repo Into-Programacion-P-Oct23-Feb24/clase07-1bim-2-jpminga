@@ -30,7 +30,7 @@ public class Ejemplo05 {
         System.out.println("Ingresar el numero");
         numero = entrada.nextInt();
         System.out.println("Ingresar la potencia");
-        numero = entrada.nextInt();
+        potencia = entrada.nextInt();
 
         int contador = 1;
 

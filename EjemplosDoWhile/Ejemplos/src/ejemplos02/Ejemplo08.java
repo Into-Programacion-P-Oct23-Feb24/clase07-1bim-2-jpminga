@@ -34,15 +34,16 @@ public class Ejemplo08 {
             if (denominador % 2 == 0) {
                 signo = "+";
             } else {
-                signo = "-";
+                signo = "+";
             }
-            
-            cadena = String.format("%s%s%d/%d ", 
+
+            cadena = String.format("%s%s%d/%d ",
                     cadena,
                     signo,
-                    numerador, 
+                    numerador,
                     denominador);
             denominador = denominador + 1;
+            numerador = numerador + 1;
 
         } while (denominador <= limite);
 

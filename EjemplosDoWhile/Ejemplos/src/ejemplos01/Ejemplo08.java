@@ -33,16 +33,17 @@ public class Ejemplo08 {
 
         do {
             // para manejar el signo asociado 
+            // 1 % 2 == // falso
             if (denominador % 2 == 0) {
                 signo = "+";
             } else {
-                signo = "-";
+                signo = "-";// -
             }
-            
-            cadena = String.format("%s%s%d/%d ", 
+
+            cadena = String.format("%s%s%d/%d ",
                     cadena,
                     signo,
-                    numerador, 
+                    numerador,
                     denominador);
             denominador = denominador + 1;
 

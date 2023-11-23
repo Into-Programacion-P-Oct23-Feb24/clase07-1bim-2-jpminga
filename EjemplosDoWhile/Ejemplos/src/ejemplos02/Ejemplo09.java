@@ -26,7 +26,6 @@ public class Ejemplo09 {
         String cadenaFinal;
         int nota;
         int salida;
-        String nombre; // *
         double promedio;
         boolean bandera = true;
         int suma = 0;

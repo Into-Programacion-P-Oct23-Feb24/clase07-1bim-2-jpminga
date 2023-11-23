@@ -37,7 +37,7 @@ public class Ejemplo09 {
             contador_calificaciones = contador_calificaciones + 1;
 
             // agrego valor a la cadena final
-            cadenaFinal = String.format("%sCalificación: %d\n",
+            cadenaFinal = String.format("%sCalificación de Juan: %d\n",
                     cadenaFinal,
                     nota);
             System.out.println("Ingrese (-111) si desea salir del ciclo; "
@@ -47,11 +47,14 @@ public class Ejemplo09 {
             if (salida == -111) {
                 bandera = false;
             }
+            entrada.nextLine();
 
         } while (bandera); // (bandera==true)
 
         // promedio = suma / contador_calificaciones;
         promedio = (double) suma / contador_calificaciones;
+// Al ser suma y contador_calificaciones int estoy haciendo un cambio de suma 
+// en una variable entera
         cadenaFinal = String.format("%s\nPromedio de calificaciones: %.2f",
                 cadenaFinal,
                 promedio);

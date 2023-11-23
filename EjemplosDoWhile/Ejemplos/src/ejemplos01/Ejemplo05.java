@@ -24,9 +24,9 @@ public class Ejemplo05 {
         potencia = 3;
         // 9. resultado <-- 1
         resultado = 1;
-
+        // 10. contador, {0-n}
         int contador = 1;
-
+        // Genera la potencia envase a la multiplicacion
         do {
             resultado = resultado * numero;
             contador = contador + 1;

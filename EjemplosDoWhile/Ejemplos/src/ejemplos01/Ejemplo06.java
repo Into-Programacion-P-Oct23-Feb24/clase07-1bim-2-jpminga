@@ -33,7 +33,9 @@ public class Ejemplo06 {
         tabla = entrada.nextInt();
 
         do {
-            operacion = tabla * contador;
+            operacion = tabla * contador; // 2*2=20  2*2=4
+                                          // 2x1=2!
+                                          // 2x2=4
             System.out.printf("%d x %d = %d\n", tabla, contador, operacion);
             contador = contador + 1;
         } while (contador <= 10);

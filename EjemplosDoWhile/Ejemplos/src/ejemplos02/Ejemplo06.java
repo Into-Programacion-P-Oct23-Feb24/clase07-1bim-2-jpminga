@@ -32,7 +32,10 @@ public class Ejemplo06 {
         int operacion;
         int contador = 1;
         int limite;
-        
+        System.out.println("Ingresar el numero");
+        tabla = entrada.nextInt();
+        System.out.println("Ingresar el limite");
+        limite = entrada.nextInt();
         do {
             operacion = tabla * contador;
             System.out.printf("%d x %d = %d\n", tabla, contador, operacion);
